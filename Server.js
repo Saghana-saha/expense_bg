@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-const MONGO_URI = 'mongodb+srv://saghanathangavel:sahana@cluster0.3eoofma.mongodb.net/exp?retryWrites=true&w=majority&appName=Cluster0';
+const MONGO_URI = 'mongodb+srv://saghanathangavel:saha@cluster0.3eoofma.mongodb.net/exp?retryWrites=true&w=majority&appName=Cluster0';
 
 const connectDB = async () => {
 try {
